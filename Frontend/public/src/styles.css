@@ -1,0 +1,80 @@
+/* Style for the main container */
+.ui.main {
+  background-color: #3c009d;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style for the container that centers the form */
+.ux.container.center {
+  max-width: 300px;
+  background-color: #fff;
+  padding: 60px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Style for the input fields */
+.ux input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style for the button container */
+.button.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Style for the sign-up button */
+.submit {
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+/* Hover effect for the button */
+.submit:hover {
+  background-color: #0056b3;
+}
+
+/* Adjust the spacing between elements */
+.ux.Name,
+.ux.Email,
+.ux.Password {
+  margin-bottom: 10px;
+}
+
+/* Style for the login button */
+.login.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login .submit {
+  background-color: #3d9970;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+/* Hover effect for the login button */
+.login .submit:hover {
+  background-color: #2a6a4f;
+}
